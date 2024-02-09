@@ -26,7 +26,7 @@ import RatingForm from '../forms/RatingForm.js';
 import RatingAvg from '../ratings/RatingsAvg.js';
 import RatingEdit from '../ratings/RatingEdit.js';
 import UserSpacesList from '../users/UserSpacesList.js';
-import Map from '../map/Map.js';
+// import Map from '../map/Map.js';
 
 const MyRoutes = ({login, signup, remove, update, create})=>{
 
@@ -51,7 +51,7 @@ const MyRoutes = ({login, signup, remove, update, create})=>{
       <Route path="/comments/:comment_id/edit" element={<CommentEdit update={update} remove={remove}/>} />
       <Route path="/ratings/spaces/:title" element={<RatingAvg/>} />
       <Route path="/ratings/:rating_id/edit" element={<RatingEdit update={update} remove={remove}/>}/>
-      <Route path="/map/:title" element={<Map />} />
+      {/* <Route path="/map/:title" element={<Map />} /> */}
 
       
       <Route path="/locations/spaces/:city/:neighborhood" element={<LocationDetailWithSpaces/>}/>
