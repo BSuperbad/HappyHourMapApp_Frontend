@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import UserContext from "../context/UserContext.js";
 
-import MapComponent from "../map/MapComponent.js";
+// import MapComponent from "../map/MapComponent.js";
 
 const Home = () => {
     const {currentUser} = useContext(UserContext);
@@ -15,7 +15,7 @@ const Home = () => {
                 <Link to="/spaces" style={{color: "#f4978e"}}>
                 <h2>Explore Spaces</h2> 
                 </Link>
-                <MapComponent />
+                {/* <MapComponent /> */}
             </div>
         )
     };
