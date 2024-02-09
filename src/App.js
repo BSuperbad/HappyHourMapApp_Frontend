@@ -68,9 +68,12 @@ function App() {
       // You may need to adjust this based on the actual response from register
       const userToken = await HappyHourApi.authenticate(userData.username, userData.password);
       setToken(userToken.token);
+      console.log(userToken.token)
+      console.log(newUser)
       localStorage.setItem('token', userToken.token);
       HappyHourApi.token = userToken.token;
       setCurrentUser(newUser);
+      console.log(currentUser)
     } catch(error) {
       console.error('Signup failed', error);
       // Handle the error here (e.g., display an error message to the user)
