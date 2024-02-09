@@ -6,12 +6,14 @@ import UserContext from "../context/UserContext.js";
 
 const Home = () => {
     const {currentUser} = useContext(UserContext);
+    console.log("currentUser", currentUser)
 
     const textColor = { color: "#f4978e", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }
 
     const loggedInHomepage = ()=> {
         return(
             <div>
+                <h2>Welcome back, {currentUser.username}</h2>
                 <Link to="/spaces" style={{color: "#f4978e"}}>
                 <h2>Explore Spaces</h2> 
                 </Link>
