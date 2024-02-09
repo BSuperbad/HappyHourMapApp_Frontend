@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  background-color: #ffe8d6;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  background-color: #ffe8d6;
+  margin: 0;
+}
+
+

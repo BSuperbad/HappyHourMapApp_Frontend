@@ -1,0 +1,51 @@
+
+  /* .Space-Image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  } */
+
+  body {
+    background-color: #ffe8d6;
+    margin: 0; /* Reset default margin to make sure the background covers the entire window */
+  }
+
+  .Space-Detail-Container {
+    position: relative;
+    padding: 20px;
+  }
+
+  
+  .Space-Image {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* z-index: -1; */
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .Over-Image {
+    position: absolute;
+    top: 100px;;
+    left: 0;
+    width: 100%
+    /* z-index: 1; */
+  }
+  
+
+  .Space-Title {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+
+
+  .google-maps-marker {
+    width: 30px;
+    height: 30px;
+  }
+
+
