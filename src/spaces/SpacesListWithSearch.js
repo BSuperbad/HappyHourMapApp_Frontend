@@ -226,7 +226,7 @@ const SpacesListWithSearch = ({remove}) => {
             ))
           )}
           </div>
-          {currentUser.isAdmin ? 
+          {currentUser && currentUser.isAdmin ? 
           <Link to="/spaces/new">
             <button className="btn btn-light">Add a Space</button>
           </Link>
