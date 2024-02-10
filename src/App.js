@@ -4,7 +4,7 @@ import NavBar from './navigation/NavBar.js';
 import UserContext from './context/UserContext.js';
 import React, {useState, useEffect} from 'react';
 import HappyHourApi from './api/backendApi.js';
-import {jwtDecode} from "jwt-decode"
+import jwtDecode from "jwt-decode"
 import MyRoutes from './navigation/MyRoutes.js';
 
 
