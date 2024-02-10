@@ -5,7 +5,7 @@ import UserContext from "../context/UserContext.js";
 const NavBar = ({ logout }) => {
   const { currentUser } = useContext(UserContext);
 
-  const navBarStyle = { backgroundColor: '#f8ad9d' }; // Add your desired navbar background color
+  const navBarStyle = { backgroundColor: '#f8ad9d' };
   const linkStyle = { color: "white" };
 
   const loggedInNav = () => {
