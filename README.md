@@ -1,4 +1,4 @@
-# Springboard Capstone 2 Project
+# HappyHour Interior Design Map App
 
 **Title:** HappyHour Interior Design Map  
 **Deployment URL:** <https://happyhour-map-app-frontend.onrender.com>  
